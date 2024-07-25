@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar{
+    background-color: white;
+    /* border: 2px solid red; */
+    height: 60px;
+    width: 100%;
+    display: inline-block;
+    position:relative;
+}
+.navbar h3{
+    margin-left: 72px;
+    margin-top: 13px;
+    font-size: 36px;
+}
+.navbar button{
+    text-align: center;
+    border: 12px solid navy;
+    background-color: navy;
+    color: aliceblue;
+    border-radius: 26px;
+    /* margin-left: 800px; */
+    /* margin-top: -20px; */
+    position:absolute;
+    top:14px;
+    right:170px;
+    
+}
+.second-part{
+    /* border: 2px solid purple; */
+    height: 400px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.second-part p{
+    margin-top: 46px;
+    margin-left: 35px;
+    font-size: 20px;
+}
+.second-part .content {
+    text-align: center;
+    margin-top: 40px;
+    /* line-height: 2px; */
+}
+.second-part .content button{
+    height: 47px;
+    width: 144px;
+    background-image: linear-gradient(rgb(240, 97, 15),rgb(255, 0, 255));    
+     border: 2px rgb(250, 151, 168) solid;
+    color: white;
+    border-radius: 25px;
+    box-shadow: rgb(221, 80, 24,44);
+    margin-top: 40px;
+}
+.second-part .content h1{
+    font-size: 58px;
+}
+.pink{
+    height: 300px;
+    width: 200px;
+    border-radius:46%;
+    background-image: linear-gradient(rgb(240, 97, 15),rgb(255, 0, 255));
+    position: relative;
+    margin-left: 300px;
+    position: absolute;
+    right: 117px;
+    top: 16px;
+    
+}
+.pink img{
+    height: 226px;
+    width: 162px;
+    border-radius: 48%;
+    position:absolute;
+    bottom:0;
+    right: 14%;
+
+}
+.downbox{
+    height: 96px;
+    width: 106px;
+    background-color: white;
+    /* border: 2px solid red; */
+    color:black;
+    text-align: center;
+    border-radius: 20%;
+    position: absolute;
+    bottom: -45px;
+    left: -8px;
+
+}
+.downbox h4,.downbox h2{
+    margin-top: 20px;
+}
+.topbox{
+    height: 96px;
+    width: 106px;
+    background-color: white;
+    /* border: 2px solid red; */
+   color :black ;
+   text-align: center;
+   border-radius: 20%;
+   position: absolute;
+   top: -16px;
+   right: -52px;
+}
+.topbox h4 , .topbox h2{
+        margin-top: 20px;
+}
+.thirdpart{
+  height: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left:70px;
+  gap: 40px;
+  margin-top: 160px;
+  
+
+}
+.one, .two, .three, .four, .five, .six{
+    height: 250px;
+    width: 25%;
+ border: 2px rgb(241, 240, 241) solid;
+ /* box-shadow:rgb(32, 31, 31,32); */
+ border-radius: 27px;
+ box-shadow: 0px 0px 30px 5px rgba(146,143,143,0.568);
+    /* gap: 20px; */
+}
+.thirdpart .one h2{
+    text-align: center;
+    margin-top: 87px;
+}
+.one{
+    background-image: linear-gradient(rgb(240, 97, 15),rgb(255, 0, 255));
+    border: 2px rgb(248, 41, 138) solid;
+    text-align:justify;
+    border-radius: 27px;
+    box-shadow: 0px 0px 30px 5px rgba(146,143,143,0.568);
+}
+.two{
+    position: relative;
+}
+.two .run{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-image:linear-gradient(rgb(240, 97, 15),rgb(255, 0, 255));
+    /* margin-top: 10px; */
+    margin-left: 20px;
+    border: 2px pink solid;
+    position: absolute;
+    top:-23px
+}
+.two h3 ,.two p{
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+.two p{
+    font-size: 18px;
+}
+.two button{
+ background-color: white;
+ color: rgb(248, 41, 138) ;
+ border: 2px white;
+ position: absolute;
+  bottom:50px; 
+  left: 10px;
+ /* top:2px; */
+ font-size: 16px;
+
+}
+.three{
+    position: relative;
+}
+ .three .box{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-image:linear-gradient(rgb(240, 97, 15),rgb(255, 0, 255));
+    margin-top: 10px; 
+     margin-left: 20px;
+    border: 2px pink solid;
+    position: absolute;
+    top:-23px;
+} 
+ .three h3,.three p{
+    margin-left: 20px;
+    margin-top: 10px;
+   
+} 
+.three p{
+     font-size:18px ;
+}
+ .three button{
+    background-color: white;
+    color: rgb(248, 41, 138) ;
+    border: 2px white;
+    position: absolute;
+     bottom:50px; 
+     left: 10px;
+    /* top:2px;  */
+    font-size: 16px;
+ }
+.four{
+    position:relative;
+}
+.four .camera{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-image:linear-gradient(rgb(240, 97, 15),rgb(255, 0, 255));
+    margin-top: 10px; 
+     margin-left: 20px;
+    border: 2px pink solid;
+    position: absolute;
+    top:-23px
+}
+.four h3, .four p{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.four p{
+    font-size: 18px;
+}
+.four button{
+    background-color: white;
+    color: rgb(248, 41, 138) ;
+    border: 2px white;
+    position: absolute;
+     bottom:50px;
+     left: 10px; 
+    /* top:2px;  */
+    font-size: 16px;
+}
+.five{
+    position: relative;
+  
+}
+.five img{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-image:linear-gradient(rgb(240, 97, 15),rgb(255, 0, 255));
+    margin-top: 10px; 
+     margin-left: 20px;
+    border: 2px pink solid;
+    position: absolute;
+    top:-23px;
+    /* z-index: 1; */
+}
+.five h3, .five p{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.five p{
+    font-size: 18px;
+}
+.five button{
+    background-color: white;
+    color: rgb(248, 41, 138) ;
+    border: 2px white;
+    position: absolute;
+     bottom:50px;
+     left: 10px; 
+    /* top:2px;  */
+    font-size: 16px;
+}
+.six{
+    position:relative
+}
+.six .bag{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-image:linear-gradient(rgb(240, 97, 15),rgb(255, 0, 255));
+    margin-top: 10px; 
+     margin-left: 20px;
+    border: 2px pink solid;
+    position: absolute;
+    top:-23px
+}
+.six h3 , .six p{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.six p{
+    font-size: 18px;
+}
+.six button{
+    background-color: white;
+    color: rgb(248, 41, 138) ;
+    border: 2px white;
+    position: absolute;
+     bottom:50px; 
+     left: 10px;
+    /* top:2px;  */
+    font-size: 16px;
+}
+footer{
+    background-color:rgb(10, 10, 68);
+    /* border: 2px solid red; */
+    height: 60px;
+    width: 100%;
+    display: inline-block;
+    position:relative;
+}
+footer h3{
+    margin-left: 72px;
+    margin-top: 13px;
+    font-size: 36px;
+    color: white;
+}
+footer button{
+    height:50px ;
+    width: 100px;
+    text-align: center;
+    /* border: 12px solid navy; */
+    background-image: linear-gradient(rgb(240, 97, 15),rgb(255, 0, 255));
+    color: aliceblue;
+    border-radius: 26px;
+    /* margin-left: 800px; */
+    /* margin-top: -20px; */
+    position:absolute;
+    top:8px;
+    right:170px;
+    border: 2px solid rgb(214, 69, 93);
+}
